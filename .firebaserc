@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "ngmosprint1"
-  }
+    "default": "ngsprintfinal",
+    "final sprint": "ngsprintfinal"
+  },
+  "targets": {}
 }

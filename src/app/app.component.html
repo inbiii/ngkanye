@@ -13,7 +13,7 @@
   </style>
   <img src="">
   <br>
-  <div class="quote--body">{{quote}}</div>
+  <div class="quote--body" *ngFor="let quote of quotes">{{quote}}</div>
 </section>
 <section>
   <router-outlet></router-outlet>
