@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { KanyeComponent } from './kanye/kanye.component';
+import { TreasureComponent } from './treasure/treasure.component';
 
-const routes: Routes = [{ path: 'ye', component: KanyeComponent }];
+
+const routes: Routes = [{ path: "ye", component: TreasureComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

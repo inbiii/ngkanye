@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { KanyeComponent } from './kanye/kanye.component'
+import { TreasureComponent } from './treasure/treasure.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    KanyeComponent
+    TreasureComponent
   ],
   imports: [
     BrowserModule,
